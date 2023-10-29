@@ -34,3 +34,13 @@ Pour installer Inertia dans votre projet Laravel, vous pouvez suivre les étapes
 
 J'espère que cela vous aidera. N'hésitez pas à me poser d'autres questions si vous en avez besoin.
 
+
+Bonjour Wilgas ADJOVI,
+
+En Laravel, CRUD signifie Create, Read, Update, et Delete. C'est un ensemble d'opérations de base que vous pouvez effectuer sur une base de données pour gérer les données. En d'autres termes, CRUD est un moyen simple et standard de créer, lire, mettre à jour et supprimer des données dans une base de données.
+
+J'espère que cela répond à votre question. N'hésitez pas à me demander si vous avez d'autres questions.
+
+
+
+
