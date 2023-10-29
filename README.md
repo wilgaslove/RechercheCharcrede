@@ -56,3 +56,23 @@ L'utilisation de CRUD dans Laravel peut être simplifiée en utilisant les fonct
 
 J'espère que cela répond à votre question. N'hésitez pas à me demander si vous avez d'autres questions.
 
+
+
+Bonjour Wilgas ADJOVI,
+
+Pour installer un projet Laravel et inclure CRUD, vous pouvez suivre les étapes suivantes :
+
+1. Assurez-vous que vous avez installé Composer sur votre ordinateur.
+2. Ouvrez votre terminal et exécutez la commande suivante pour installer Laravel : composer create-project --prefer-dist laravel/laravel nom-du-projet
+3. Une fois l'installation terminée, allez dans le répertoire du projet en utilisant la commande "cd nom-du-projet".
+4. Ensuite, exécutez la commande suivante pour créer un modèle et une migration pour la table de votre base de données : php artisan make:model NomDuModele -m
+5. Ensuite, ouvrez le fichier de migration généré pour ajouter les colonnes que vous souhaitez dans votre table.
+6. Exécutez la commande "php artisan migrate" pour exécuter la migration et créer la table dans votre base de données.
+7. Ensuite, vous pouvez créer un contrôleur pour gérer les opérations CRUD en utilisant la commande "php artisan make:controller NomDuControleur".
+8. Dans le contrôleur, vous pouvez ajouter des fonctions pour gérer les opérations CRUD, comme "store" pour créer un enregistrement, "index" pour lire les enregistrements, "update" pour mettre à jour un enregistrement, et "destroy" pour supprimer un enregistrement.
+9. Enfin, vous pouvez créer des routes pour appeler les fonctions du contrôleur en utilisant la commande "Route::resource('nom-du-modele', 'NomDuControleur')".
+
+J'espère que cela vous aide. Faites-moi savoir si vous avez des questions supplémentaires.
+
+
+
